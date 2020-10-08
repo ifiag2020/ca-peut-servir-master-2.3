@@ -1,0 +1,17 @@
+#banner {
+  .principal-banner img {
+    width: 100% !important;
+    height: auto;
+  }
+}
+#partenaires {
+  text-align: center;
+  h2 {
+    @include subtitles();
+    margin-top: 60px;
+  }
+  img {
+    width: 200px;
+    margin-top: 40px;
+  }
+}

@@ -1,0 +1,39 @@
+.menu {
+  margin-top: 30px;
+  img {
+    margin-bottom: 30px;
+  }
+  span {
+    margin-right: 10px;
+  }
+  .infos-etab {
+    margin-top: 30px;
+  }
+  .infos-etab a {
+    @include button();
+    text-decoration: none;
+    margin-top: 50px;
+    padding: 10px 15px;
+  }
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  .filter-background {
+    text-align: center;
+    height: 350px;
+  }
+  form {
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 0;
+  }
+  .categorie {
+    text-align: center !important;
+    margin: 0 auto !important;
+  }
+  .infos-etab {
+    text-align: center !important;
+    margin: 0 20px 20px 20px;
+  }
+}

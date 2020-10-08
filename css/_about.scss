@@ -1,0 +1,91 @@
+// Section Rubrique Start
+#rubrique {
+  margin-top: 60px !important;
+  margin-bottom: 60px !important;
+  .subtitle h2 {
+    @include subtitles();
+  }
+  .text-rubrique p {
+    @include text();
+  }
+  .img_rubrique img {
+    width: 100%;
+    height: auto;
+  }
+}
+
+// Section Testimony Start
+#testimony {
+  background-color: #fff5ce;
+  .subtitle h2 {
+    padding-top: 60px;
+    @include subtitles();
+  }
+  .text-testimony p {
+    @include text();
+    padding-bottom: 60px;
+  }
+}
+
+// Section Info Start
+#info {
+  background-color: none;
+  .subtitle h2 {
+    padding-top: 60px;
+    @include subtitles();
+  }
+  .text-info p {
+    @include text();
+    padding-bottom: 60px;
+  }
+}
+
+// Section links Start
+#links {
+  background-color: #dcf2f0;
+  .subtitle h2 {
+    padding-top: 60px;
+    @include subtitles();
+  }
+  p {
+    font-size: 20px;
+    padding-bottom: 30px;
+    color: $text-color;
+  }
+  .button a {
+    @include button();
+    padding: 12px;
+  }
+  padding-bottom: 60px;
+}
+
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  #rubrique {
+    .text-rubrique p {
+      font-size: 18px;
+      text-align: justify;
+      color: #45505e;
+      margin: 0;
+    }
+  }
+  #testimony {
+    .text-testimony p {
+      font-size: 18px;
+      text-align: justify;
+      color: #45505e;
+      margin: 0;
+    }
+  }
+  #info {
+    .text-info p {
+      font-size: 18px;
+      text-align: justify;
+      color: #45505e;
+      margin: 0;
+    }
+  }
+  #links {
+    text-align: center;
+  }
+}

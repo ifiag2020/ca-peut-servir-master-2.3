@@ -1,0 +1,284 @@
+@media screen and (max-width: 600px) {
+  .phone {
+    margin-top: -16px !important;
+  }
+}
+
+@media screen and (max-width: 995px) {
+  header .pages li::after {
+    border-bottom: solid 0px #009a8f !important;
+  }
+}
+
+@media screen and (max-width: 1192px) {
+  #information {
+    .row {
+      display: block !important;
+    }
+    .col-md-5 {
+      margin: auto !important;
+    }
+    .col-md-7 {
+      margin: auto !important;
+      max-width: 100%;
+      margin-top: -60px !important;
+    }
+  }
+}
+
+@media screen and (min-width: 995px) {
+  .dropdown-menu {
+    left: -82px !important;
+  }
+  .position-titre {
+    position: relative;
+  }
+
+  .position-titre {
+    position: absolute;
+    bottom: 0;
+    margin-bottom: 12px;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .footer-menu1,
+  .footer-menu2,
+  .footer-social span {
+    margin-top: 20px;
+  }
+  #service .icon {
+    margin-top: 40px;
+  }
+}
+
+@media screen and (min-width: 767px) {
+  #service .icon {
+    margin-top: 50px;
+  }
+}
+
+button:focus {
+  box-shadow: none !important;
+}
+
+#lien-page {
+  margin-top: 30px;
+  margin-bottom: 25px;
+  p {
+    text-transform: uppercase;
+    font-size: 13px;
+  }
+}
+
+#section-form {
+  margin-top: 40px;
+}
+
+#section-form input,
+#section-form textarea {
+  box-shadow: none !important;
+  outline: none !important;
+  background: rgba(204, 204, 204, 0.863);
+}
+
+#section-form {
+  button {
+    color: white;
+    background-color: #009a8f;
+    border: none;
+    height: 60px;
+    border-radius: 8px;
+    &:hover {
+      color: #009a8f;
+      background-color: #ffe272;
+    }
+  }
+}
+
+#rubrique {
+  margin-top: 40px !important;
+  h2 {
+    margin-bottom: 20px !important;
+  }
+  p {
+    margin-bottom: 20px !important;
+  }
+}
+
+#service {
+  form {
+    border-radius: 20px;
+  }
+  input {
+    box-shadow: none !important;
+    outline: none !important;
+  }
+}
+
+#service #service h3,
+#repas h1 {
+  font-size: 23px;
+  color: #009a8f;
+}
+
+#service button {
+  color: white;
+  background-color: #009a8f;
+  border: none;
+  height: 40px;
+  border-radius: 5px;
+}
+
+#service button:hover {
+  color: #009a8f;
+  background-color: #ffe272;
+}
+
+#title-service h1 {
+  color: #009a8f;
+  font-size: 26px;
+}
+
+nav .page-item a {
+  color: #009a8f;
+}
+
+#favoris .offre {
+  text-decoration: none;
+  color: #fff;
+  border-radius: 5px;
+  background: #009a8f;
+  padding: 10px 10px;
+}
+
+#favoris .card:hover {
+  background: #ffff8d8a;
+}
+
+#repas h1 {
+  font-size: 26px;
+}
+
+#connexion_particulier p,
+#profile p,
+#P_repas p {
+  display: inline-flex;
+}
+
+.container-1 {
+  padding: 0 !important;
+}
+
+#container-1 {
+  padding-right: 0px !important;
+  padding-left: 0px !important;
+}
+
+#connexion_particulier input,
+#profile input,
+#P_repas input,
+#P_repas #select {
+  box-shadow: none !important;
+  outline: none !important;
+}
+
+#connexion_particulier,
+#P_repas {
+  margin-top: 40px;
+  margin-bottom: 40px;
+}
+
+#connexion_particulier .form-group,
+#profile .form-group,
+#P_repas .form-group {
+  margin-bottom: 30px;
+}
+
+#connexion_particulier form,
+#profile form,
+#P_repas form {
+  border-radius: 5px;
+}
+
+#connexion_particulier h1,
+#P_repas h1 {
+  color: #009a8f;
+  font-size: 26px;
+  text-align: center;
+  margin-bottom: 35px;
+  margin-top: 20px;
+}
+
+#connexion_particulier a,
+#P_repas a {
+  text-decoration: none;
+  color: #009a8f;
+}
+
+#connexion_particulier button,
+#profile button,
+#P_repas button {
+  color: white;
+  background-color: #009a8f;
+  border: none;
+  height: 50px;
+  border-radius: 5px;
+}
+
+#connexion_particulier button:hover,
+#profile button:hover,
+#P_repas button:hover {
+  color: #009a8f;
+  background-color: #ffe272;
+}
+
+.principal-banner img {
+  width: 100% !important;
+  height: auto;
+}
+
+#tabs nav > .nav.nav-tabs {
+  border: none;
+  color: #fff;
+  background: #272e38a4;
+  border-radius: 0;
+}
+#tabs nav > div a.nav-item.nav-link,
+#tabs nav > div a.nav-item.nav-link.active {
+  border: none;
+  padding: 18px 25px;
+  color: #009a8f;
+  background: #272e38a4;
+  border-radius: 0;
+}
+
+#tabs nav > div a.nav-item.nav-link.active:after {
+  content: "";
+  position: relative;
+  bottom: -60px;
+  left: -10%;
+  border: 15px solid transparent;
+  border-top-color: #009a8f;
+}
+.tab-content {
+  background: #fdfdfd;
+  line-height: 25px;
+  border: 1px solid #ddd;
+  border-top: 5px solid #ffe272;
+  border-bottom: 5px solid #ffe272;
+  padding: 30px 25px;
+}
+
+#tabs nav > div a.nav-item.nav-link:focus {
+  border: none;
+  background: #009a8f;
+  color: #ffe272;
+  border-radius: 0;
+  transition: background 0.2s linear;
+}
+
+.project-tab {
+  padding: 15% 0 2% 0;
+  margin-top: -8%;
+}
